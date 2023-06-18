@@ -1,0 +1,16 @@
+[package]
+name = "cg-playground"
+version = "0.1.0"
+authors = ["T19"]
+edition = "2021"
+license-file = "LICENSE"
+rust-version = "1.60.0"
+readme = "README.md"
+
+[dependencies]
+chrono = "0.4.19"
+itertools = "0.10.0"
+libc = "0.2.93"
+rand = "0.8.3"
+regex = "1.4.5"
+time = "0.2.26"
