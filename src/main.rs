@@ -1,8 +1,6 @@
-use std::{error::Error, io::{BufReader, self, BufRead}};
+use std::io::*;
 
-fn main() -> Result<(), Box<dyn Error>> {
-    let mut buf = BufReader::new(io::stdin()).lines();
+fn main() {
+    let mut buf = BufReader::new(stdin()).lines();
     let mut read_line = || buf.next().unwrap().unwrap();
-
-    Ok(())
 }
