@@ -10,11 +10,11 @@ playground for CondinGame platform (https://www.codingame.com/)
    * max 768MB of RAM
 
 ### Language:
-   * rust version: 1.60.0
+   * rust version: 1.70.0
    * packages:
-      - chrono = "0.4.19"
-      - itertools = "0.10.0"
-      - libc = "0.2.93"
-      - rand = "0.8.3"
-      - regex = "1.4.5"
-      - time = "0.2.26"
+      - chrono = "0.4.26"
+      - itertools = "0.11.0"
+      - libc = "0.2.147"
+      - rand = "0.8.5"
+      - regex = "1.8.4"
+      - time = "0.3.22"
